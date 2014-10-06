@@ -17,3 +17,4 @@ pl:
   error_la_bad_parameters: "Błędny parametr!"
   notice_la_records_deleted: "%{count} rekordów utworzonych po %{date} zostało usuniętych!"
   notice_la_records_all_deleted: "%{count} rekordów zostało usuniętych!"
+  label_remote_ip_http_header: 'Nagłówek HTTP, który zawiera prawdziwe ip klienta'

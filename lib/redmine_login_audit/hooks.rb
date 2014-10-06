@@ -7,7 +7,7 @@ module RedmineLoginAudit
         request = context[:request]
         audit = LoginAudit.new(
             :user => user,
-            :ip_address => request.remote_ip,
+            :ip_address => (Setting.plugin_redmine_login_audit[:remote_ip_http_header].blank? || request.headers[Setting.plugin_redmine_login_audit[:remote_ip_http_header]].blank?) ? request.remote_ip : request.headers[Setting.plugin_redmine_login_audit[:remote_ip_http_header]],
             :success => true,
             :client => request.media_type
         )

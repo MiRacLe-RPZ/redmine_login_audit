@@ -16,3 +16,4 @@ it:
   error_la_bad_parameters: "Parametri non corretti!"
   notice_la_records_deleted: "%{count} records creati dopo %{date} sono stati eliminati!"
   notice_la_records_all_deleted: "%{count} records sono stati eliminati!"
+  label_remote_ip_http_header: 'HTTP-header che contiene IP reale del client'

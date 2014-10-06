@@ -21,7 +21,7 @@
         <th>#</th>
         <th><%= l(:label_date) %></th>
         <th colspan="2"><%= l(:label_user) %></th>
-        <th><%= l(:label_la_ip_address) %></th>
+        <th><%= Setting.plugin_redmine_login_audit[:remote_ip_http_header].blank? ? l(:label_la_ip_address) : Setting.plugin_redmine_login_audit[:remote_ip_http_header] %></th>
       </tr>
       </thead>
       <% @audits.each do |audit| %>

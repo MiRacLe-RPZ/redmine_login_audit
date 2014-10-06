@@ -15,3 +15,4 @@ en:
   error_la_bad_parameters: "Bad parameters!"
   notice_la_records_deleted: "%{count} records created after %{date} were deleted!"
   notice_la_records_all_deleted: "%{count} records were deleted!"
+  label_remote_ip_http_header: 'HTTP-header which contains real ip of client'

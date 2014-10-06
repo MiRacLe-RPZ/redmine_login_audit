@@ -15,3 +15,4 @@ pt-BR:
   label_la_delete_history: "Apagar agora!"
   error_la_bad_parameters: "Parametros inválidos!"
   notice_la_records_deleted: "%{count} registros criados após %{date} que foram apagados!"
+  label_remote_ip_http_header: 'Cabeçalho HTTP que contém ip real do cliente'

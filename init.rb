@@ -12,7 +12,8 @@ Redmine::Plugin.register :redmine_login_audit do
 
   settings :default => {
       :notification_email => '',
-      :audit_rows_per_page => 50
+      :audit_rows_per_page => 50,
+      :remote_ip_http_header => ''
   },
   :partial => 'settings/login_audit'
 

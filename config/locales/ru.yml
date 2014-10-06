@@ -16,3 +16,5 @@ ru:
   error_la_bad_parameters: "Неверные  параметры!"
   notice_la_records_deleted: "%{count} записей созданных после %{date} были удалены!"
   notice_la_records_all_deleted: "%{count} записей было удалено!"
+  notice_la_records_all_deleted: "%{count} записей было удалено!"
+  label_remote_ip_http_header: 'HTTP-заголовок с реальным ip клиента'
